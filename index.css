@@ -785,6 +785,7 @@ html {
     height: 30px;
     margin-top: 33px;
     gap: 16px;
+    padding: 15px;
 }
 
 .footer-body {
@@ -909,7 +910,6 @@ input[type="text"]:focus {
         flex-direction: column;
     }
     .footer {
-        padding: 15px;
         align-items: flex-start;
     }
     .footer-body{
