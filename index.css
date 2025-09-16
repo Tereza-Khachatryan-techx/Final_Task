@@ -870,6 +870,11 @@ html {
     color: white;
 }
 
+input[type="text"]:focus {
+    border: none;
+    outline: none;
+}
+
 @media (max-width: 850px) {
     .links {
         display: none;
