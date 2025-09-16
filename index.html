@@ -41,9 +41,12 @@
                         <img src="./assets/icons/location.svg" class="location-icn"/>
                         <input type="text" class="search-input" placeholder="Enter City, neighbourhood, ZIP, or address"/>
                     </div>
-                    <div class="search-icn-container">
-                        <img src="./assets/icons/search.svg" class="search-icn"/>
-                    </div>
+                    <button class="search-icn-container">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="8.38236" cy="8.38236" r="7.08823" stroke="white" stroke-width="2"/>
+                            <path d="M13.5294 13.5294L19.4118 19.4118" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
                 </div>
             </div>
             <div class="hero-page-image">
@@ -87,8 +90,16 @@
                         <div class="card-footer">
                             <h3 style="margin-left: 16px;">$30.000</h3>
                             <div class="reaction-btns">
-                                <img src="./assets/icons/like.png" alt="Like Icon"/>
-                                <img src="./assets/icons/share.png" alt="Share Icon"/>
+                                <button class="reaction-btn">
+                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3369 1C9.85458 1 8.5761 1.88493 7.99971 3.15363C7.42388 1.88493 6.14511 1 4.66351 1C2.64304 1 1 2.6437 1 4.66375C1 5.08987 1.07316 5.49853 1.2078 5.87944C1.361 6.31301 1.59322 6.70904 1.88762 7.0506C2.01315 7.19672 2.14951 7.33245 2.29672 7.45711L7.88431 13.0074C7.9187 13.0418 7.96348 13.059 8.00871 13.059C8.05434 13.059 8.09942 13.0418 8.13407 13.0074L13.9292 7.24977C14.3043 6.87258 14.5989 6.4157 14.7833 5.90577C14.9234 5.51785 15 5.09951 15 4.66375C15 2.6437 13.3565 1 11.3369 1Z" stroke="#979797"/>
+                                    </svg>
+                                </button>
+                                <button class="reaction-btn">
+                                    <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.501674" fill-rule="evenodd" clip-rule="evenodd" d="M8.39926 2.21053C8.39926 0.995297 9.39456 0 10.6098 0C11.825 0 12.8203 0.995297 12.8203 2.21053C12.8203 3.42576 11.825 4.42105 10.6098 4.42105C9.92089 4.42105 9.32796 4.08191 8.92167 3.58347L5.13528 5.47759C5.14556 5.51836 5.15693 5.55876 5.16829 5.59913L5.16829 5.59914L5.16829 5.59914L5.16829 5.59915C5.20486 5.72914 5.24136 5.85886 5.24136 6C5.24136 6.14114 5.20486 6.27086 5.16829 6.40085L5.16829 6.40086L5.16829 6.40086L5.16829 6.40087C5.15693 6.44124 5.14556 6.48164 5.13528 6.52241L8.92167 8.41653C9.32796 7.91809 9.92089 7.57895 10.6098 7.57895C11.825 7.57895 12.8203 8.57424 12.8203 9.78947C12.8203 11.0047 11.825 12 10.6098 12C9.39456 12 8.39926 11.0047 8.39926 9.78947C8.39926 9.64833 8.43576 9.51861 8.47234 9.38862L8.47234 9.3886C8.4837 9.34823 8.49506 9.30783 8.50535 9.26706L4.71896 7.37294C4.31267 7.87139 3.71973 8.21053 3.03084 8.21053C1.81561 8.21053 0.820312 7.21523 0.820312 6C0.820312 4.78477 1.81561 3.78947 3.03084 3.78947C3.71973 3.78947 4.31267 4.12861 4.71896 4.62706L8.50535 2.73294C8.49506 2.69217 8.4837 2.65177 8.47234 2.61141L8.47234 2.61139L8.47233 2.61138L8.47233 2.61138C8.43576 2.48139 8.39926 2.35166 8.39926 2.21053ZM11.8729 2.21053C11.8729 1.50729 11.313 0.947368 10.6098 0.947368C9.90655 0.947368 9.34663 1.50729 9.34663 2.21053C9.34663 2.91376 9.90655 3.47368 10.6098 3.47368C11.313 3.47368 11.8729 2.91376 11.8729 2.21053ZM3.03084 4.73684C3.73407 4.73684 4.294 5.29677 4.294 6C4.294 6.70323 3.73407 7.26316 3.03084 7.26316C2.3276 7.26316 1.76768 6.70323 1.76768 6C1.76768 5.29677 2.3276 4.73684 3.03084 4.73684ZM11.8729 9.78947C11.8729 9.08624 11.313 8.52632 10.6098 8.52632C9.90655 8.52632 9.34663 9.08624 9.34663 9.78947C9.34663 10.4927 9.90655 11.0526 10.6098 11.0526C11.313 11.0526 11.8729 10.4927 11.8729 9.78947Z" fill="#222222"/>
+                                    </svg>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -124,10 +135,26 @@
                         <div class="card-footer">
                             <h3 style="margin-left: 16px;">$123/Month</h3>
                             <div class="reaction-btns">
-                                <img src="./assets/icons/liked.png" alt="Like Icon"/>
-                                <img src="./assets/icons/share.png" alt="Share Icon"/>
+                                <button class="reaction-btn reacted">
+                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute;">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3369 1C9.85458 1 8.5761 1.88493 7.99971 3.15363C7.42388 1.88493 6.14511 1 4.66351 1C2.64304 1 1 2.6437 1 4.66375C1 5.08987 1.07316 5.49853 1.2078 5.87944C1.361 6.31301 1.59322 6.70904 1.88762 7.0506C2.01315 7.19672 2.14951 7.33245 2.29672 7.45711L7.88431 13.0074C7.9187 13.0418 7.96348 13.059 8.00871 13.059C8.05434 13.059 8.09942 13.0418 8.13407 13.0074L13.9292 7.24977C14.3043 6.87258 14.5989 6.4157 14.7833 5.90577C14.9234 5.51785 15 5.09951 15 4.66375C15 2.6437 13.3565 1 11.3369 1Z" stroke="#979797"/>
+                                    </svg>
+                                    <svg width="48" height="20" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top: 20px; position:absolute" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect width="17" height="23" fill="url(#pattern0_1_857)"/>
+                                        <defs>
+                                        <pattern id="pattern0_1_857" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_1_857" transform="scale(0.0294118 0.0217391)"/>
+                                        </pattern>
+                                        <image id="image0_1_857" width="34" height="46" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAuCAYAAABNhcu5AAAEDmlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY1JHQgAAOI2NVV1oHFUUPpu5syskzoPUpqaSDv41lLRsUtGE2uj+ZbNt3CyTbLRBkMns3Z1pJjPj/KRpKT4UQRDBqOCT4P9bwSchaqvtiy2itFCiBIMo+ND6R6HSFwnruTOzu5O4a73L3PnmnO9+595z7t4LkLgsW5beJQIsGq4t5dPis8fmxMQ6dMF90A190C0rjpUqlSYBG+PCv9rt7yDG3tf2t/f/Z+uuUEcBiN2F2Kw4yiLiZQD+FcWyXYAEQfvICddi+AnEO2ycIOISw7UAVxieD/Cyz5mRMohfRSwoqoz+xNuIB+cj9loEB3Pw2448NaitKSLLRck2q5pOI9O9g/t/tkXda8Tbg0+PszB9FN8DuPaXKnKW4YcQn1Xk3HSIry5ps8UQ/2W5aQnxIwBdu7yFcgrxPsRjVXu8HOh0qao30cArp9SZZxDfg3h1wTzKxu5E/LUxX5wKdX5SnAzmDx4A4OIqLbB69yMesE1pKojLjVdoNsfyiPi45hZmAn3uLWdpOtfQOaVmikEs7ovj8hFWpz7EV6mel0L9Xy23FMYlPYZenAx0yDB1/PX6dledmQjikjkXCxqMJS9WtfFCyH9XtSekEF+2dH+P4tzITduTygGfv58a5VCTH5PtXD7EFZiNyUDBhHnsFTBgE0SQIA9pfFtgo6cKGuhooeilaKH41eDs38Ip+f4At1Rq/sjr6NEwQqb/I/DQqsLvaFUjvAx+eWirddAJZnAj1DFJL0mSg/gcIpPkMBkhoyCSJ8lTZIxk0TpKDjXHliJzZPO50dR5ASNSnzeLvIvod0HG/mdkmOC0z8VKnzcQ2M/Yz2vKldduXjp9bleLu0ZWn7vWc+l0JGcaai10yNrUnXLP/8Jf59ewX+c3Wgz+B34Df+vbVrc16zTMVgp9um9bxEfzPU5kPqUtVWxhs6OiWTVW+gIfywB9uXi7CGcGW/zk98k/kmvJ95IfJn/j3uQ+4c5zn3Kfcd+AyF3gLnJfcl9xH3OfR2rUee80a+6vo7EK5mmXUdyfQlrYLTwoZIU9wsPCZEtP6BWGhAlhL3p2N6sTjRdduwbHsG9kq32sgBepc+xurLPW4T9URpYGJ3ym4+8zA05u44QjST8ZIoVtu3qE7fWmdn5LPdqvgcZz8Ww8BWJ8X3w0PhQ/wnCDGd+LvlHs8dRy6bLLDuKMaZ20tZrqisPJ5ONiCq8yKhYM5cCgKOu66Lsc0aYOtZdo5QCwezI4wm9J/v0X23mlZXOfBjj8Jzv3WrY5D+CsA9D7aMs2gGfjve8ArD6mePZSeCfEYt8CONWDw8FXTxrPqx/r9Vt4biXeANh8vV7/+/16ffMD1N8AuKD/A/8leAvFY9bLAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAAioAMABAAAAAEAAAAuAAAAAORCbm8AAAEVSURBVFgJ7ZbhDsIgDITB+P6vjIN4JJywMYp4MfhDVlzr9euNzLv+T6BbPcWm8GHKnpjc01UiEUIJxPucmi8sumSIbCE8xk1kE2ECHD95YyAuDxjnhs4VGbOaiVROXCYEyKek/ocI2uW1g1RBSIbIciGR1JtW9FL203IhPELE5qcGhe6u8NDxXpOoSBHJc6KuClfTb5gzbzf3P26kDSkiSRtmBqGYHWLryvW5ngyRppDYwVUX3JUlbgqxFB3JjULi03FYwsevkRpTcmSI1BCkc2WVPzAFGSJbCDu85hHcs8Qrch752fsISBz401RkzHrmka96RZaIzGhkhPR4ZKpX2BsoLkNkC8FIsN72CBInrMV/y4zmBUbOP1VJoZQhAAAAAElFTkSuQmCC"/>
+                                        </defs>
+                                    </svg>
+                                </button>
+                                <button class="reaction-btn">
+                                    <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.501674" fill-rule="evenodd" clip-rule="evenodd" d="M8.39926 2.21053C8.39926 0.995297 9.39456 0 10.6098 0C11.825 0 12.8203 0.995297 12.8203 2.21053C12.8203 3.42576 11.825 4.42105 10.6098 4.42105C9.92089 4.42105 9.32796 4.08191 8.92167 3.58347L5.13528 5.47759C5.14556 5.51836 5.15693 5.55876 5.16829 5.59913L5.16829 5.59914L5.16829 5.59914L5.16829 5.59915C5.20486 5.72914 5.24136 5.85886 5.24136 6C5.24136 6.14114 5.20486 6.27086 5.16829 6.40085L5.16829 6.40086L5.16829 6.40086L5.16829 6.40087C5.15693 6.44124 5.14556 6.48164 5.13528 6.52241L8.92167 8.41653C9.32796 7.91809 9.92089 7.57895 10.6098 7.57895C11.825 7.57895 12.8203 8.57424 12.8203 9.78947C12.8203 11.0047 11.825 12 10.6098 12C9.39456 12 8.39926 11.0047 8.39926 9.78947C8.39926 9.64833 8.43576 9.51861 8.47234 9.38862L8.47234 9.3886C8.4837 9.34823 8.49506 9.30783 8.50535 9.26706L4.71896 7.37294C4.31267 7.87139 3.71973 8.21053 3.03084 8.21053C1.81561 8.21053 0.820312 7.21523 0.820312 6C0.820312 4.78477 1.81561 3.78947 3.03084 3.78947C3.71973 3.78947 4.31267 4.12861 4.71896 4.62706L8.50535 2.73294C8.49506 2.69217 8.4837 2.65177 8.47234 2.61141L8.47234 2.61139L8.47233 2.61138L8.47233 2.61138C8.43576 2.48139 8.39926 2.35166 8.39926 2.21053ZM11.8729 2.21053C11.8729 1.50729 11.313 0.947368 10.6098 0.947368C9.90655 0.947368 9.34663 1.50729 9.34663 2.21053C9.34663 2.91376 9.90655 3.47368 10.6098 3.47368C11.313 3.47368 11.8729 2.91376 11.8729 2.21053ZM3.03084 4.73684C3.73407 4.73684 4.294 5.29677 4.294 6C4.294 6.70323 3.73407 7.26316 3.03084 7.26316C2.3276 7.26316 1.76768 6.70323 1.76768 6C1.76768 5.29677 2.3276 4.73684 3.03084 4.73684ZM11.8729 9.78947C11.8729 9.08624 11.313 8.52632 10.6098 8.52632C9.90655 8.52632 9.34663 9.08624 9.34663 9.78947C9.34663 10.4927 9.90655 11.0526 10.6098 11.0526C11.313 11.0526 11.8729 10.4927 11.8729 9.78947Z" fill="#222222"/>
+                                    </svg>
+                                </button>
                             </div>
-                            <img src="./assets/icons/mouse.png" alt="Mouse Icon" class="mouse-icn"/>
                         </div>
                     </div>
                     <div class="card card3">
@@ -165,8 +192,16 @@
                         <div class="card-footer">
                             <h3 style="margin-left: 16px;">$30.000</h3>
                             <div class="reaction-btns">
-                                <img src="./assets/icons/like.png" alt="Like Icon"/>
-                                <img src="./assets/icons/share.png" alt="Share Icon"/>
+                                <button class="reaction-btn">
+                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3369 1C9.85458 1 8.5761 1.88493 7.99971 3.15363C7.42388 1.88493 6.14511 1 4.66351 1C2.64304 1 1 2.6437 1 4.66375C1 5.08987 1.07316 5.49853 1.2078 5.87944C1.361 6.31301 1.59322 6.70904 1.88762 7.0506C2.01315 7.19672 2.14951 7.33245 2.29672 7.45711L7.88431 13.0074C7.9187 13.0418 7.96348 13.059 8.00871 13.059C8.05434 13.059 8.09942 13.0418 8.13407 13.0074L13.9292 7.24977C14.3043 6.87258 14.5989 6.4157 14.7833 5.90577C14.9234 5.51785 15 5.09951 15 4.66375C15 2.6437 13.3565 1 11.3369 1Z" stroke="#979797"/>
+                                    </svg>
+                                </button>
+                                <button class="reaction-btn">
+                                    <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.501674" fill-rule="evenodd" clip-rule="evenodd" d="M8.39926 2.21053C8.39926 0.995297 9.39456 0 10.6098 0C11.825 0 12.8203 0.995297 12.8203 2.21053C12.8203 3.42576 11.825 4.42105 10.6098 4.42105C9.92089 4.42105 9.32796 4.08191 8.92167 3.58347L5.13528 5.47759C5.14556 5.51836 5.15693 5.55876 5.16829 5.59913L5.16829 5.59914L5.16829 5.59914L5.16829 5.59915C5.20486 5.72914 5.24136 5.85886 5.24136 6C5.24136 6.14114 5.20486 6.27086 5.16829 6.40085L5.16829 6.40086L5.16829 6.40086L5.16829 6.40087C5.15693 6.44124 5.14556 6.48164 5.13528 6.52241L8.92167 8.41653C9.32796 7.91809 9.92089 7.57895 10.6098 7.57895C11.825 7.57895 12.8203 8.57424 12.8203 9.78947C12.8203 11.0047 11.825 12 10.6098 12C9.39456 12 8.39926 11.0047 8.39926 9.78947C8.39926 9.64833 8.43576 9.51861 8.47234 9.38862L8.47234 9.3886C8.4837 9.34823 8.49506 9.30783 8.50535 9.26706L4.71896 7.37294C4.31267 7.87139 3.71973 8.21053 3.03084 8.21053C1.81561 8.21053 0.820312 7.21523 0.820312 6C0.820312 4.78477 1.81561 3.78947 3.03084 3.78947C3.71973 3.78947 4.31267 4.12861 4.71896 4.62706L8.50535 2.73294C8.49506 2.69217 8.4837 2.65177 8.47234 2.61141L8.47234 2.61139L8.47233 2.61138L8.47233 2.61138C8.43576 2.48139 8.39926 2.35166 8.39926 2.21053ZM11.8729 2.21053C11.8729 1.50729 11.313 0.947368 10.6098 0.947368C9.90655 0.947368 9.34663 1.50729 9.34663 2.21053C9.34663 2.91376 9.90655 3.47368 10.6098 3.47368C11.313 3.47368 11.8729 2.91376 11.8729 2.21053ZM3.03084 4.73684C3.73407 4.73684 4.294 5.29677 4.294 6C4.294 6.70323 3.73407 7.26316 3.03084 7.26316C2.3276 7.26316 1.76768 6.70323 1.76768 6C1.76768 5.29677 2.3276 4.73684 3.03084 4.73684ZM11.8729 9.78947C11.8729 9.08624 11.313 8.52632 10.6098 8.52632C9.90655 8.52632 9.34663 9.08624 9.34663 9.78947C9.34663 10.4927 9.90655 11.0526 10.6098 11.0526C11.313 11.0526 11.8729 10.4927 11.8729 9.78947Z" fill="#222222"/>
+                                    </svg>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -195,7 +230,16 @@
                 </div>
                 <div class="cards">
                     <div class="event-card1">
-                        <img class="arrow-icn left" src="./assets/images/arrow-left.png" alt="Arrow Icon"/>
+                        <button class="arrow-icn left">
+                            <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.53871 1.55421L1.39321 9.5929L8.53871 17.6316" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="arrow-icn-right">
+                                <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.46129 17.4458L15.6068 9.4071L8.46129 1.36842" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </button>
                         <div class="card-image">
                             <div class="status">
                                 <p>Personal</p>
@@ -211,12 +255,17 @@
                                         <p style="font-size: 12px; opacity: 49.99%; font-weight: 400;">7:30-10:30PM @somewhere</p>
                                     </div>
                                     <div class="event-card-icons">
-                                        <div class="add-share">
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/add.png" alt="Add Image" style="width: 24px; height: 24px;"/>
+                                        <div class="reaction-btns">
+                                            <button class="reaction-btn add">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.91817 1.12732V15.3091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M0.827271 8.21826H15.0091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
                                             </button>
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/share.png" alt="Share Image" style="width: 24px; height: 24px;"/>
+                                            <button class="reaction-btn">
+                                                <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.501674" fill-rule="evenodd" clip-rule="evenodd" d="M8.39926 2.21053C8.39926 0.995297 9.39456 0 10.6098 0C11.825 0 12.8203 0.995297 12.8203 2.21053C12.8203 3.42576 11.825 4.42105 10.6098 4.42105C9.92089 4.42105 9.32796 4.08191 8.92167 3.58347L5.13528 5.47759C5.14556 5.51836 5.15693 5.55876 5.16829 5.59913L5.16829 5.59914L5.16829 5.59914L5.16829 5.59915C5.20486 5.72914 5.24136 5.85886 5.24136 6C5.24136 6.14114 5.20486 6.27086 5.16829 6.40085L5.16829 6.40086L5.16829 6.40086L5.16829 6.40087C5.15693 6.44124 5.14556 6.48164 5.13528 6.52241L8.92167 8.41653C9.32796 7.91809 9.92089 7.57895 10.6098 7.57895C11.825 7.57895 12.8203 8.57424 12.8203 9.78947C12.8203 11.0047 11.825 12 10.6098 12C9.39456 12 8.39926 11.0047 8.39926 9.78947C8.39926 9.64833 8.43576 9.51861 8.47234 9.38862L8.47234 9.3886C8.4837 9.34823 8.49506 9.30783 8.50535 9.26706L4.71896 7.37294C4.31267 7.87139 3.71973 8.21053 3.03084 8.21053C1.81561 8.21053 0.820312 7.21523 0.820312 6C0.820312 4.78477 1.81561 3.78947 3.03084 3.78947C3.71973 3.78947 4.31267 4.12861 4.71896 4.62706L8.50535 2.73294C8.49506 2.69217 8.4837 2.65177 8.47234 2.61141L8.47234 2.61139L8.47233 2.61138L8.47233 2.61138C8.43576 2.48139 8.39926 2.35166 8.39926 2.21053ZM11.8729 2.21053C11.8729 1.50729 11.313 0.947368 10.6098 0.947368C9.90655 0.947368 9.34663 1.50729 9.34663 2.21053C9.34663 2.91376 9.90655 3.47368 10.6098 3.47368C11.313 3.47368 11.8729 2.91376 11.8729 2.21053ZM3.03084 4.73684C3.73407 4.73684 4.294 5.29677 4.294 6C4.294 6.70323 3.73407 7.26316 3.03084 7.26316C2.3276 7.26316 1.76768 6.70323 1.76768 6C1.76768 5.29677 2.3276 4.73684 3.03084 4.73684ZM11.8729 9.78947C11.8729 9.08624 11.313 8.52632 10.6098 8.52632C9.90655 8.52632 9.34663 9.08624 9.34663 9.78947C9.34663 10.4927 9.90655 11.0526 10.6098 11.0526C11.313 11.0526 11.8729 10.4927 11.8729 9.78947Z" fill="#222222"/>
+                                                </svg>
                                             </button>
                                         </div>
                                         <div class="members">
@@ -244,12 +293,17 @@
                                         <p style="font-size: 12px; opacity: 49.99%; font-weight: 400;">7:30-10:30PM @somewhere</p>
                                     </div>
                                     <div class="event-card-icons">
-                                        <div class="add-share">
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/add.png" alt="Add Image" style="width: 24px; height: 24px;"/>
+                                        <div class="reaction-btns">
+                                            <button class="reaction-btn add">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.91817 1.12732V15.3091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M0.827271 8.21826H15.0091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
                                             </button>
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/share.png" alt="Share Image" style="width: 24px; height: 24px;"/>
+                                            <button class="reaction-btn">
+                                                <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.501674" fill-rule="evenodd" clip-rule="evenodd" d="M8.39926 2.21053C8.39926 0.995297 9.39456 0 10.6098 0C11.825 0 12.8203 0.995297 12.8203 2.21053C12.8203 3.42576 11.825 4.42105 10.6098 4.42105C9.92089 4.42105 9.32796 4.08191 8.92167 3.58347L5.13528 5.47759C5.14556 5.51836 5.15693 5.55876 5.16829 5.59913L5.16829 5.59914L5.16829 5.59914L5.16829 5.59915C5.20486 5.72914 5.24136 5.85886 5.24136 6C5.24136 6.14114 5.20486 6.27086 5.16829 6.40085L5.16829 6.40086L5.16829 6.40086L5.16829 6.40087C5.15693 6.44124 5.14556 6.48164 5.13528 6.52241L8.92167 8.41653C9.32796 7.91809 9.92089 7.57895 10.6098 7.57895C11.825 7.57895 12.8203 8.57424 12.8203 9.78947C12.8203 11.0047 11.825 12 10.6098 12C9.39456 12 8.39926 11.0047 8.39926 9.78947C8.39926 9.64833 8.43576 9.51861 8.47234 9.38862L8.47234 9.3886C8.4837 9.34823 8.49506 9.30783 8.50535 9.26706L4.71896 7.37294C4.31267 7.87139 3.71973 8.21053 3.03084 8.21053C1.81561 8.21053 0.820312 7.21523 0.820312 6C0.820312 4.78477 1.81561 3.78947 3.03084 3.78947C3.71973 3.78947 4.31267 4.12861 4.71896 4.62706L8.50535 2.73294C8.49506 2.69217 8.4837 2.65177 8.47234 2.61141L8.47234 2.61139L8.47233 2.61138L8.47233 2.61138C8.43576 2.48139 8.39926 2.35166 8.39926 2.21053ZM11.8729 2.21053C11.8729 1.50729 11.313 0.947368 10.6098 0.947368C9.90655 0.947368 9.34663 1.50729 9.34663 2.21053C9.34663 2.91376 9.90655 3.47368 10.6098 3.47368C11.313 3.47368 11.8729 2.91376 11.8729 2.21053ZM3.03084 4.73684C3.73407 4.73684 4.294 5.29677 4.294 6C4.294 6.70323 3.73407 7.26316 3.03084 7.26316C2.3276 7.26316 1.76768 6.70323 1.76768 6C1.76768 5.29677 2.3276 4.73684 3.03084 4.73684ZM11.8729 9.78947C11.8729 9.08624 11.313 8.52632 10.6098 8.52632C9.90655 8.52632 9.34663 9.08624 9.34663 9.78947C9.34663 10.4927 9.90655 11.0526 10.6098 11.0526C11.313 11.0526 11.8729 10.4927 11.8729 9.78947Z" fill="#222222"/>
+                                                </svg>
                                             </button>
                                         </div>
                                         <div class="members">
@@ -277,12 +331,17 @@
                                         <p style="font-size: 12px; opacity: 49.99%; font-weight: 400;">7:30-10:30PM @somewhere</p>
                                     </div>
                                     <div class="event-card-icons">
-                                        <div class="add-share">
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/add.png" alt="Add Image" style="width: 24px; height: 24px;"/>
+                                        <div class="reaction-btns">
+                                            <button class="reaction-btn add">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.91817 1.12732V15.3091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M0.827271 8.21826H15.0091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
                                             </button>
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/share.png" alt="Share Image" style="width: 24px; height: 24px;"/>
+                                            <button class="reaction-btn">
+                                                <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.501674" fill-rule="evenodd" clip-rule="evenodd" d="M8.39926 2.21053C8.39926 0.995297 9.39456 0 10.6098 0C11.825 0 12.8203 0.995297 12.8203 2.21053C12.8203 3.42576 11.825 4.42105 10.6098 4.42105C9.92089 4.42105 9.32796 4.08191 8.92167 3.58347L5.13528 5.47759C5.14556 5.51836 5.15693 5.55876 5.16829 5.59913L5.16829 5.59914L5.16829 5.59914L5.16829 5.59915C5.20486 5.72914 5.24136 5.85886 5.24136 6C5.24136 6.14114 5.20486 6.27086 5.16829 6.40085L5.16829 6.40086L5.16829 6.40086L5.16829 6.40087C5.15693 6.44124 5.14556 6.48164 5.13528 6.52241L8.92167 8.41653C9.32796 7.91809 9.92089 7.57895 10.6098 7.57895C11.825 7.57895 12.8203 8.57424 12.8203 9.78947C12.8203 11.0047 11.825 12 10.6098 12C9.39456 12 8.39926 11.0047 8.39926 9.78947C8.39926 9.64833 8.43576 9.51861 8.47234 9.38862L8.47234 9.3886C8.4837 9.34823 8.49506 9.30783 8.50535 9.26706L4.71896 7.37294C4.31267 7.87139 3.71973 8.21053 3.03084 8.21053C1.81561 8.21053 0.820312 7.21523 0.820312 6C0.820312 4.78477 1.81561 3.78947 3.03084 3.78947C3.71973 3.78947 4.31267 4.12861 4.71896 4.62706L8.50535 2.73294C8.49506 2.69217 8.4837 2.65177 8.47234 2.61141L8.47234 2.61139L8.47233 2.61138L8.47233 2.61138C8.43576 2.48139 8.39926 2.35166 8.39926 2.21053ZM11.8729 2.21053C11.8729 1.50729 11.313 0.947368 10.6098 0.947368C9.90655 0.947368 9.34663 1.50729 9.34663 2.21053C9.34663 2.91376 9.90655 3.47368 10.6098 3.47368C11.313 3.47368 11.8729 2.91376 11.8729 2.21053ZM3.03084 4.73684C3.73407 4.73684 4.294 5.29677 4.294 6C4.294 6.70323 3.73407 7.26316 3.03084 7.26316C2.3276 7.26316 1.76768 6.70323 1.76768 6C1.76768 5.29677 2.3276 4.73684 3.03084 4.73684ZM11.8729 9.78947C11.8729 9.08624 11.313 8.52632 10.6098 8.52632C9.90655 8.52632 9.34663 9.08624 9.34663 9.78947C9.34663 10.4927 9.90655 11.0526 10.6098 11.0526C11.313 11.0526 11.8729 10.4927 11.8729 9.78947Z" fill="#222222"/>
+                                                </svg>
                                             </button>
                                         </div>
                                         <div class="members">
@@ -295,7 +354,11 @@
                         </div>
                     </div>
                     <div class="card event-card">
-                        <img class="arrow-icn right" src="./assets/images/arrow-right.png" alt="Arrow Icon"/>
+                        <button class="arrow-icn right">
+                            <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.46129 17.4458L15.6068 9.4071L8.46129 1.36842" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
                         <div class="card-image">
                             <div class="status webinar">
                                 <p>Webinar</p>
@@ -311,12 +374,17 @@
                                         <p style="font-size: 12px; opacity: 49.99%; font-weight: 400;">7:30-10:30PM @somewhere</p>
                                     </div>
                                     <div class="event-card-icons">
-                                        <div class="add-share">
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/add.png" alt="Add Image" style="width: 24px; height: 24px;"/>
+                                        <div class="reaction-btns">
+                                            <button class="reaction-btn add">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.91817 1.12732V15.3091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M0.827271 8.21826H15.0091" stroke="#B2D235" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
                                             </button>
-                                            <button style="background: none; border: none;">
-                                                <img src="./assets/images/share.png" alt="Share Image" style="width: 24px; height: 24px;"/>
+                                            <button class="reaction-btn">
+                                                <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.501674" fill-rule="evenodd" clip-rule="evenodd" d="M8.39926 2.21053C8.39926 0.995297 9.39456 0 10.6098 0C11.825 0 12.8203 0.995297 12.8203 2.21053C12.8203 3.42576 11.825 4.42105 10.6098 4.42105C9.92089 4.42105 9.32796 4.08191 8.92167 3.58347L5.13528 5.47759C5.14556 5.51836 5.15693 5.55876 5.16829 5.59913L5.16829 5.59914L5.16829 5.59914L5.16829 5.59915C5.20486 5.72914 5.24136 5.85886 5.24136 6C5.24136 6.14114 5.20486 6.27086 5.16829 6.40085L5.16829 6.40086L5.16829 6.40086L5.16829 6.40087C5.15693 6.44124 5.14556 6.48164 5.13528 6.52241L8.92167 8.41653C9.32796 7.91809 9.92089 7.57895 10.6098 7.57895C11.825 7.57895 12.8203 8.57424 12.8203 9.78947C12.8203 11.0047 11.825 12 10.6098 12C9.39456 12 8.39926 11.0047 8.39926 9.78947C8.39926 9.64833 8.43576 9.51861 8.47234 9.38862L8.47234 9.3886C8.4837 9.34823 8.49506 9.30783 8.50535 9.26706L4.71896 7.37294C4.31267 7.87139 3.71973 8.21053 3.03084 8.21053C1.81561 8.21053 0.820312 7.21523 0.820312 6C0.820312 4.78477 1.81561 3.78947 3.03084 3.78947C3.71973 3.78947 4.31267 4.12861 4.71896 4.62706L8.50535 2.73294C8.49506 2.69217 8.4837 2.65177 8.47234 2.61141L8.47234 2.61139L8.47233 2.61138L8.47233 2.61138C8.43576 2.48139 8.39926 2.35166 8.39926 2.21053ZM11.8729 2.21053C11.8729 1.50729 11.313 0.947368 10.6098 0.947368C9.90655 0.947368 9.34663 1.50729 9.34663 2.21053C9.34663 2.91376 9.90655 3.47368 10.6098 3.47368C11.313 3.47368 11.8729 2.91376 11.8729 2.21053ZM3.03084 4.73684C3.73407 4.73684 4.294 5.29677 4.294 6C4.294 6.70323 3.73407 7.26316 3.03084 7.26316C2.3276 7.26316 1.76768 6.70323 1.76768 6C1.76768 5.29677 2.3276 4.73684 3.03084 4.73684ZM11.8729 9.78947C11.8729 9.08624 11.313 8.52632 10.6098 8.52632C9.90655 8.52632 9.34663 9.08624 9.34663 9.78947C9.34663 10.4927 9.90655 11.0526 10.6098 11.0526C11.313 11.0526 11.8729 10.4927 11.8729 9.78947Z" fill="#222222"/>
+                                                </svg>
                                             </button>
                                         </div>
                                         <div class="members">
@@ -446,7 +514,11 @@
                         <img src="./assets/icons/location.svg" class="location-icn"/>
                         <input type="text" class="search-input" placeholder="Enter your Address"/>
                     </div>
-                    <img src="./assets/images/address-input.png" class="address-icn"/>
+                    <button class="search-icn-container">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.15514 9.92554H14.0581L8.42099 15.5626C7.97048 16.0131 7.97048 16.7524 8.42099 17.2029C8.87149 17.6534 9.59923 17.6534 10.0497 17.2029L17.6621 9.59055C18.1126 9.14004 18.1126 8.4123 17.6621 7.9618L10.0613 0.337862C9.84547 0.121559 9.55247 0 9.24691 0C8.94136 0 8.64835 0.121559 8.43254 0.337862C7.98203 0.788368 7.98203 1.51611 8.43254 1.96661L14.0581 7.61526H1.15514C0.519814 7.61526 0 8.13507 0 8.7704C0 9.40573 0.519814 9.92554 1.15514 9.92554Z" fill="white"/>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
