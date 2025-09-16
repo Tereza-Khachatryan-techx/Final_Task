@@ -97,6 +97,7 @@ html {
     font-size: 13px;
     line-height: 100%;
     letter-spacing: 0;
+    cursor: pointer;
 }
 
 .page-hero {
@@ -811,6 +812,11 @@ html {
     color: var(--color-text-green);
 }
 
+.newsletter-container {
+    max-width: 320px;
+    width: 100%;
+}
+
 .helpful-links {
     display: flex;
     flex-direction: column;
@@ -835,12 +841,14 @@ html {
     border-radius: 35px;
 }
 .newsletter p{
-    padding: 15px;
     font-weight: 500;
     font-size: 12px;
     opacity:50.5%;
     line-height: 100%;
     letter-spacing: 0px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .subscribe-newsletter-btn {
