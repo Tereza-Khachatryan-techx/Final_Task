@@ -719,6 +719,7 @@ html {
 .address {
     background-image: url("assets/images/map.png");
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -999,6 +1000,7 @@ input[type="text"]:focus {
         background-image: url("assets/images/map-mobile.png");
         background-position: top center;
         height: 550px;
+        background-size: auto;
     }
     .grid-card {
         display: none;
