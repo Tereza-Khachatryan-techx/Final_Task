@@ -102,7 +102,7 @@ html {
 }
 
 .button:hover {
-    background: rgb(186, 226, 28);
+    background: rgb(156, 183, 46);
     transition: 1s;
 }
 
@@ -951,6 +951,16 @@ input[type="text"]:focus {
     }
     .arrow-icn-right {
         display: flex;
+    }
+}
+
+@media (max-width: 400px) {
+    .explore-cards{
+        width: 100%;
+    }
+    .new-york-card {
+        max-width: 400px;
+        width: 100%;
     }
 }
 
