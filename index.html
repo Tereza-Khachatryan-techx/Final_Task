@@ -90,7 +90,7 @@
                         <div class="card-footer">
                             <h3 style="margin-left: 16px;">$30.000</h3>
                             <div class="reaction-btns">
-                                <button class="reaction-btn">
+                                <button class="reaction-btn like-btn">
                                     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3369 1C9.85458 1 8.5761 1.88493 7.99971 3.15363C7.42388 1.88493 6.14511 1 4.66351 1C2.64304 1 1 2.6437 1 4.66375C1 5.08987 1.07316 5.49853 1.2078 5.87944C1.361 6.31301 1.59322 6.70904 1.88762 7.0506C2.01315 7.19672 2.14951 7.33245 2.29672 7.45711L7.88431 13.0074C7.9187 13.0418 7.96348 13.059 8.00871 13.059C8.05434 13.059 8.09942 13.0418 8.13407 13.0074L13.9292 7.24977C14.3043 6.87258 14.5989 6.4157 14.7833 5.90577C14.9234 5.51785 15 5.09951 15 4.66375C15 2.6437 13.3565 1 11.3369 1Z" stroke="#979797"/>
                                     </svg>
@@ -135,18 +135,9 @@
                         <div class="card-footer">
                             <h3 style="margin-left: 16px;">$123/Month</h3>
                             <div class="reaction-btns">
-                                <button class="reaction-btn reacted">
+                                <button class="reaction-btn like-btn">
                                     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute;">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3369 1C9.85458 1 8.5761 1.88493 7.99971 3.15363C7.42388 1.88493 6.14511 1 4.66351 1C2.64304 1 1 2.6437 1 4.66375C1 5.08987 1.07316 5.49853 1.2078 5.87944C1.361 6.31301 1.59322 6.70904 1.88762 7.0506C2.01315 7.19672 2.14951 7.33245 2.29672 7.45711L7.88431 13.0074C7.9187 13.0418 7.96348 13.059 8.00871 13.059C8.05434 13.059 8.09942 13.0418 8.13407 13.0074L13.9292 7.24977C14.3043 6.87258 14.5989 6.4157 14.7833 5.90577C14.9234 5.51785 15 5.09951 15 4.66375C15 2.6437 13.3565 1 11.3369 1Z" stroke="#979797"/>
-                                    </svg>
-                                    <svg width="48" height="20" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top: 20px; position:absolute" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <rect width="17" height="23" fill="url(#pattern0_1_857)"/>
-                                        <defs>
-                                        <pattern id="pattern0_1_857" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                        <use xlink:href="#image0_1_857" transform="scale(0.0294118 0.0217391)"/>
-                                        </pattern>
-                                        <image id="image0_1_857" width="34" height="46" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAuCAYAAABNhcu5AAAEDmlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY1JHQgAAOI2NVV1oHFUUPpu5syskzoPUpqaSDv41lLRsUtGE2uj+ZbNt3CyTbLRBkMns3Z1pJjPj/KRpKT4UQRDBqOCT4P9bwSchaqvtiy2itFCiBIMo+ND6R6HSFwnruTOzu5O4a73L3PnmnO9+595z7t4LkLgsW5beJQIsGq4t5dPis8fmxMQ6dMF90A190C0rjpUqlSYBG+PCv9rt7yDG3tf2t/f/Z+uuUEcBiN2F2Kw4yiLiZQD+FcWyXYAEQfvICddi+AnEO2ycIOISw7UAVxieD/Cyz5mRMohfRSwoqoz+xNuIB+cj9loEB3Pw2448NaitKSLLRck2q5pOI9O9g/t/tkXda8Tbg0+PszB9FN8DuPaXKnKW4YcQn1Xk3HSIry5ps8UQ/2W5aQnxIwBdu7yFcgrxPsRjVXu8HOh0qao30cArp9SZZxDfg3h1wTzKxu5E/LUxX5wKdX5SnAzmDx4A4OIqLbB69yMesE1pKojLjVdoNsfyiPi45hZmAn3uLWdpOtfQOaVmikEs7ovj8hFWpz7EV6mel0L9Xy23FMYlPYZenAx0yDB1/PX6dledmQjikjkXCxqMJS9WtfFCyH9XtSekEF+2dH+P4tzITduTygGfv58a5VCTH5PtXD7EFZiNyUDBhHnsFTBgE0SQIA9pfFtgo6cKGuhooeilaKH41eDs38Ip+f4At1Rq/sjr6NEwQqb/I/DQqsLvaFUjvAx+eWirddAJZnAj1DFJL0mSg/gcIpPkMBkhoyCSJ8lTZIxk0TpKDjXHliJzZPO50dR5ASNSnzeLvIvod0HG/mdkmOC0z8VKnzcQ2M/Yz2vKldduXjp9bleLu0ZWn7vWc+l0JGcaai10yNrUnXLP/8Jf59ewX+c3Wgz+B34Df+vbVrc16zTMVgp9um9bxEfzPU5kPqUtVWxhs6OiWTVW+gIfywB9uXi7CGcGW/zk98k/kmvJ95IfJn/j3uQ+4c5zn3Kfcd+AyF3gLnJfcl9xH3OfR2rUee80a+6vo7EK5mmXUdyfQlrYLTwoZIU9wsPCZEtP6BWGhAlhL3p2N6sTjRdduwbHsG9kq32sgBepc+xurLPW4T9URpYGJ3ym4+8zA05u44QjST8ZIoVtu3qE7fWmdn5LPdqvgcZz8Ww8BWJ8X3w0PhQ/wnCDGd+LvlHs8dRy6bLLDuKMaZ20tZrqisPJ5ONiCq8yKhYM5cCgKOu66Lsc0aYOtZdo5QCwezI4wm9J/v0X23mlZXOfBjj8Jzv3WrY5D+CsA9D7aMs2gGfjve8ArD6mePZSeCfEYt8CONWDw8FXTxrPqx/r9Vt4biXeANh8vV7/+/16ffMD1N8AuKD/A/8leAvFY9bLAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAAioAMABAAAAAEAAAAuAAAAAORCbm8AAAEVSURBVFgJ7ZbhDsIgDITB+P6vjIN4JJywMYp4MfhDVlzr9euNzLv+T6BbPcWm8GHKnpjc01UiEUIJxPucmi8sumSIbCE8xk1kE2ECHD95YyAuDxjnhs4VGbOaiVROXCYEyKek/ocI2uW1g1RBSIbIciGR1JtW9FL203IhPELE5qcGhe6u8NDxXpOoSBHJc6KuClfTb5gzbzf3P26kDSkiSRtmBqGYHWLryvW5ngyRppDYwVUX3JUlbgqxFB3JjULi03FYwsevkRpTcmSI1BCkc2WVPzAFGSJbCDu85hHcs8Qrch752fsISBz401RkzHrmka96RZaIzGhkhPR4ZKpX2BsoLkNkC8FIsN72CBInrMV/y4zmBUbOP1VJoZQhAAAAAElFTkSuQmCC"/>
-                                        </defs>
                                     </svg>
                                 </button>
                                 <button class="reaction-btn">
@@ -192,7 +183,7 @@
                         <div class="card-footer">
                             <h3 style="margin-left: 16px;">$30.000</h3>
                             <div class="reaction-btns">
-                                <button class="reaction-btn">
+                                <button class="reaction-btn like-btn">
                                     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3369 1C9.85458 1 8.5761 1.88493 7.99971 3.15363C7.42388 1.88493 6.14511 1 4.66351 1C2.64304 1 1 2.6437 1 4.66375C1 5.08987 1.07316 5.49853 1.2078 5.87944C1.361 6.31301 1.59322 6.70904 1.88762 7.0506C2.01315 7.19672 2.14951 7.33245 2.29672 7.45711L7.88431 13.0074C7.9187 13.0418 7.96348 13.059 8.00871 13.059C8.05434 13.059 8.09942 13.0418 8.13407 13.0074L13.9292 7.24977C14.3043 6.87258 14.5989 6.4157 14.7833 5.90577C14.9234 5.51785 15 5.09951 15 4.66375C15 2.6437 13.3565 1 11.3369 1Z" stroke="#979797"/>
                                     </svg>
@@ -208,19 +199,19 @@
                 </div>
                 <div class="cards-footer">
                     <div class="ovals">
-                        <div><img src="./assets/icons/green-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
+                        <div class="oval green-oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- second section for Events -->
-        <section class="section">
+        <section class="section event-section">
             <div class="section-container">
                 <h2 class="section-header">Events</h2>
                 <div class="tabs">
@@ -494,19 +485,18 @@
             </div>
                 <div class="cards-footer-cities">
                     <div class="ovals">
-                        <div><img src="./assets/icons/green-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
-                        <div><img src="./assets/icons/gray-oval.png"/></div>
+                        <div class="oval green-oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
+                        <div class="oval"></div>
                     </div>
                 </div>
          </section>
          <!-- address -->
           <div class="address">
-            <img src="./assets/images/map.png" alt="Map Image" class="map-img"/>
             <div class="address-container">
                 <h2>Claim your Address</h2>
                 <div class="search address-search">
@@ -582,9 +572,15 @@
                 </div>
                 <div class="footer-body-items newsletter-container">
                     <h3>Subscribe to our Newsletter</h3>
-                    <div class="newsletter">
+                    <!-- <div class="newsletter">
                         <p>Subscribe to our Newsletter</p>
                         <button class="subscribe-newsletter-btn">Subscribe</button>
+                    </div> -->
+                    <div class="newsletter">
+                        <input type="text" class="newsletter-input" placeholder="Subscribe to our Newsletter"/>
+                        <button class="subscribe-newsletter-btn">
+                            Subscribe
+                        </button>
                     </div>
                 </div>
             </div>
