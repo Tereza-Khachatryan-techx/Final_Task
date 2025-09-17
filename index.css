@@ -98,12 +98,12 @@ html {
     font-size: 13px;
     line-height: 100%;
     letter-spacing: 0;
+    transition: 1s;
     cursor: pointer;
 }
 
 .button:hover {
     background: rgb(156, 183, 46);
-    transition: 1s;
 }
 
 .page-hero {
@@ -1000,7 +1000,7 @@ input[type="text"]:focus {
         background-image: url("assets/images/map-mobile.png");
         background-position: top center;
         height: 550px;
-        background-size: auto;
+        background-size: cover;
     }
     .grid-card {
         display: none;
